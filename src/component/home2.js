@@ -5,21 +5,16 @@ import { Icon, Container, Header, Content, Card, CardItem, Thumbnail, Text, Butt
 import { Avatar } from 'react-native-elements'
 import { connect } from 'react-redux';
 import SplashScreen from 'react-native-splash-screen'
-import Tab from './scrolltab'
-export default class Home extends Component {
+export default class Home2 extends Component {
 
-    componentDidMount() {
-
-        SplashScreen.hide();
-    }
+    
 
   render() {
     
     return (
 
       <View style={styles.container}>
-      <Tab />
-       
+       <Text>home page</Text>
 
 
       </View>
