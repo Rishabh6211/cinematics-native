@@ -5,7 +5,7 @@ import { Icon, Container, Header, Content, Card, CardItem, Thumbnail, Text, Butt
 import { Avatar } from 'react-native-elements'
 import { connect } from 'react-redux';
 import SplashScreen from 'react-native-splash-screen'
-export default class Home2 extends Component {
+export default class BoxOffice extends Component {
 
     
 
@@ -14,7 +14,7 @@ export default class Home2 extends Component {
     return (
 
       <View style={styles.container}>
-       <Text>home page</Text>
+       <Text>Box office</Text>
 
 
       </View>

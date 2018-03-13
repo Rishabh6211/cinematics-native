@@ -15,9 +15,9 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk'
 import Route from './src/component/routing';
+import allReducer from './src/reducers/index'
 
-
-const store = createStore(applyMiddleware(thunk));
+const store = createStore(allReducer,applyMiddleware(thunk));
 
 export default class App extends Component {
   render() {

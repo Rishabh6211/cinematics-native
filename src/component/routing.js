@@ -12,7 +12,8 @@ const Route = () => {
 		navigationBarStyle={styles.navBar} 
 		titleStyle={styles.navBarTitle} 
 		barButtonTextStyle={styles.barButtonTextStyle} 
-		barButtonIconStyle={styles.barButtonIconStyle}
+        barButtonIconStyle={styles.barButtonIconStyle}
+        
         >
         <Scene key='root'>
         <Drawer

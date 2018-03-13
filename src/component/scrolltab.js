@@ -1,7 +1,7 @@
 import ScrollableTabView, { ScrollableTabBar, } from 'react-native-scrollable-tab-view';
 import React, { Component } from 'react';
-import Home1 from './home1'
-import Home2 from './home2'
+import Playing from './movies/playing'
+import BoxOffice from './movies/boxoffice'
 
  export default class Tab extends Component {
 
@@ -16,12 +16,9 @@ import Home2 from './home2'
         initialPage={0}
         renderTabBar={() => <ScrollableTabBar />}
     >
-        <Home1 tabLabel="NOW PLAYING" />
-        <Home2 tabLabel="TOP BOX OFFICE" />
-        <Home2 tabLabel="ANTICIPATED" />
-        <Home2 tabLabel="UPCOMING" />
-        <Home2 tabLabel="TRENDING" />
-        <Home2 tabLabel="TOP RATED" />
+        <Playing tabLabel="NOW PLAYING" />
+        <BoxOffice tabLabel="TOP BOX OFFICE" />
+        <BoxOffice tabLabel="TOP BOX OFFICE" />
     </ScrollableTabView>
 
     );
